@@ -1,6 +1,9 @@
 # TerraConnect
 
 TerraConnect is a full-stack land management application powered by Django, Django Rest Framework (DRF), and Next.js. It employs Tailwind CSS and Tailwind UI for stylish and responsive UI/UX. Docker and Docker Compose are used for easy setup and deployment.
+![Alt text](propertymanagement.png)
+![Alt text](propertydetail.png)
+![Alt text](propertymanagement2.png)
 
 ## Table of Contents
 
