@@ -28,8 +28,6 @@ Make sure Docker and Docker Compose are installed on your machine. Then, follow 
 
 1.  Clone the repository:
 
-    bash
-
     ```bash
     git clone https://github.com/haybarcheezy/TerraConnect.git
     cd TerraConnect
@@ -37,15 +35,11 @@ Make sure Docker and Docker Compose are installed on your machine. Then, follow 
 
 2.  Build and run the Docker services:
 
-    bash
-
     ```bash
     docker-compose up -d
     ```
 
 3.  After the services are up, create the necessary database migrations:
-
-    bash
 
     ```bash
     docker-compose exec web python manage.py makemigrations
@@ -56,15 +50,11 @@ For the frontend:
 
 1.  Navigate to the frontend directory:
 
-    bash
-
     ```bash
     cd frontend
     ```
 
 2.  Install all dependencies:
-
-    bash
 
     ```bash
     npm install
@@ -76,15 +66,11 @@ Once everything is set up:
 
 - Start the backend server with Docker Compose:
 
-  bash
-
   ```bash
   docker-compose up -d
   ```
 
 - Start the frontend development server:
-
-  bash
 
   ```bash
   cd frontend
