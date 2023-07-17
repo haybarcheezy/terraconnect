@@ -21,6 +21,14 @@ TerraConnect is a full-stack land management application powered by Django, Djan
 - Backend powered by Django and Django Rest Framework (DRF)
 - Next.js frontend for optimized user interface
 - Easy setup and deployment with Docker
+- Bulk CSV properties upload
+- Property search and filtering
+- Photo upload and storage
+- Property detail page with Google Maps integration (TODO)
+- Property analytics (TODO)
+- Property reports (TODO)
+- Property S3 file storage (TODO)
+- Property notifications (TODO)
 
 ## Installation
 
